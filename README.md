@@ -38,12 +38,6 @@ The goal is to practice real-world frontend architecture and responsive design t
 
 ---
 
-## 📸 Preview
-
-![Uploading image.png…]()
-
----
-
 ## 🌐 Live Demo
 
 👉 [https://mustafakullab.github.io/full-project/](https://mustafakullab.github.io/Kullab-Responsive-MultiPage/)
