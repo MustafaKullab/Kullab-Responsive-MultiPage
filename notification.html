@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Notification</title>
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="side-bar">
+            <h4>Mustafa</h4>
+            <ul class="links">
+                <li><a href="index.html"><i class="bi bi-speedometer2"></i>
+                        </i><span>Dashboard</span></a></li>
+                <li><a href="settings.html"><i class="bi bi-gear"></i>
+                        <span>Setting</span></a></li>
+                <li><a href="profile.html"><i class="bi bi-person"></i>
+                        <span>Profile</span></a></li>
+                <li><a href="projects.html"><i class="bi bi-diagram-3"></i>
+                        <span>Projects</span></a>
+                </li>
+                <li><a href="courses.html"><i class="bi bi-mortarboard"></i>
+                        <span>Courses</span></a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="bi bi-people"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li><a href="files.html"><i class="bi bi-folder2"></i><span>Files</span></a></li>
+                <li><a href="plans.html"><i class="bi bi-credit-card"></i><span>Plans</span></a></li>
+            </ul>
+            <div class="side-bar-control">
+                <i class="bi bi-layout-sidebar-inset"></i>
+            </div>
+        </div>
+        <div class="page-content notification">
+            <div class="header notification">
+                <div class="search">
+                    <input type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="logo" data-notification="6">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <a href="profile.html"><img src="imgs/myAvatar.jpg" alt="Avatar"></a>
+                    <div class="menu-nota">
+                        <ul class="menu">
+                            <li class="notification-one">
+                                <span>Friend request</span>
+                                <span>2 minutes ago</span>
+                            </li>
+                            <li>
+                                <span>"JavaScript Basis" message</span>
+                                <span>1 hour ago</span>
+                            </li>
+                            <li>
+                                <span>New file uploaded</span>
+                                <span>Yesterday</span>
+                            </li>
+                            <li>
+                                <span>Commented on your post</span>
+                                <span>2 days ago</span>
+                            </li>
+                            <li>
+                                <span>Meeting scheduled</span>
+                                <span>3 day ago</span>
+                            </li>
+                            <li>
+                                <span>Subscription upgraded</span>
+                                <span>1 week ago</span>
+                            </li>
+                        </ul>
+                        <div class="details">
+                            <span class="readAll">Read All</span>
+                            <a href="notification.html" target="_blank">View Notification Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="notification-page">
+                <div class="head-notification">
+                    <h1>Notifications <i class="fa-solid fa-bell"></i></h1>
+                    <button class="readAll">Mark All as Read</button>
+                </div>
+                <div class="notifications-box">
+                    <div class="box private">
+                        <div class="icon bell">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="details">
+                            <div class="describe">Ahmed sent you a friend request</div>
+                            <span class="time">2 minutes ago</span>
+                        </div>
+                        <div class="choice">
+                            <span class="accept">Accept</span>
+                            <span class="decline">Decline</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon check">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="details">
+                            <div class="describe">Your course "JavaScript Basis" is now 75% complete.</div>
+                            <span class="time">1 hour ago</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon microphone">
+                            <i class="fa-solid fa-microphone"></i>
+                        </div>
+                        <div class="details">
+                            <div class="describe">New file "Project-plan.pdf" has been uploaded.</div>
+                            <span class="time">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon user">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="details">
+                            <div class="describe">Sara commented on your post: "Great Jop On The Latest Project!"</div>
+                            <span class="time">2 days ago</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon days">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <div class="details">
+                            <div class="describe">Meeting scheduled: team Sync tomorrow at 10:00 am.</div>
+                            <span class="time">3 days ago</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="details">
+                            <div class="describe">Your subscription has been upgraded to premium plan.</div>
+                            <span class="time">1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/notification.js"></script>
+</body>
+
+</html>
