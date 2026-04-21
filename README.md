@@ -17,6 +17,8 @@ It includes multiple pages such as:
 
 The goal is to practice real-world frontend architecture and responsive design techniques.
 
+<img width="1917" height="914" alt="image" src="https://github.com/user-attachments/assets/cc899f46-91d9-4b1b-975e-64e6d497426f" />
+
 ---
 
 ## ⚡ Features
